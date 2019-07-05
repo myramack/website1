@@ -1,0 +1,107 @@
+/*Website Styles */
+* {
+  font-size: 100%;
+  /* border: 1px solid red; */
+  /* margin: 0; */
+  line-height: 1;
+  box-sizing:border-box;
+}
+body {
+  background-color: SteelBlue;
+  color: black;
+  font-family: Helvetica;
+  font-size: 14px;
+  margin: 50px;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: left;
+  }
+  h2 {
+    font-size: 24px;
+    text-align: left;
+  }
+   h3 {font-size: 18px;
+  }
+h1, h2 ,h3 {
+  font-weight: lighter;
+  /* font-style: italic; */
+  margin-bottom: 20px;
+}
+p {
+  line-height: 2;
+  margin-top: 10px;
+  margin-bottom:20px;
+  margin-right: 30px;
+  margin-left: 0;
+}
+header h1 {
+  img: center;
+  text-align: center;
+}
+p {
+  text align: center;
+}
+a:link,
+a:focus, {
+  color: red;
+  text-decoration: none;
+}
+a:active {
+  color: purple;
+}
+a:hover {
+  text-decoration: underline;
+}
+a: visited {
+  color: grey;
+}
+p {
+  margin:15px 0
+}
+ul, ol {
+  margin: 15px 0;
+}
+header,
+section, footer{
+  padding: 30px;
+}
+h1{
+  border-bottom: 1px solid black;
+}
+
+/* section {
+  border: 1px dashed black; */
+}
+/* img{
+  width 400px;s
+  height: 300px;
+  } */
+.title{
+  font-size 48px;
+  text-decoration: underline;
+  }
+.title {
+  color: blue;
+  }
+  h1 {
+  color: red;
+  }
+.container {
+  max-width: 1000px;
+}
+div {
+max-width: 1000px;
+margin: 0 auto;
+}
+body {
+  background-image: url(images/retina_wood.png);
+  background-repeat: reapeat;
+}
+.banner {
+  height: 500px;
+  background-image: url(images/Canoefamily-inCR.jpg);
+  background-size: cover;
+  background position: center;
+}
